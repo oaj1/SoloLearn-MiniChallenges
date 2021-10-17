@@ -1,1 +1,12 @@
+x = input()
 
+words = " ".join([x[1:] + x[0] for x in x.split(" ")])
+
+res = words.split()
+
+newWord = []
+
+for word in res:
+  newWords.append(word + "ay")
+sentence = " ".join(newWords)
+print(sentence)
