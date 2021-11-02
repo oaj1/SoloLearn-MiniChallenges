@@ -1,0 +1,13 @@
+string = input()
+container = []
+
+for i in string:
+  container +=1
+aSet = set(container)
+
+contains = len(container)!= len(aSet)
+
+if contains:
+  print("Deja Vu")
+elif len(container) == len(aSet):
+  print("Unique")
