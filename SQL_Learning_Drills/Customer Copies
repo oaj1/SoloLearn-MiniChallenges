@@ -1,0 +1,3 @@
+/* table name: Operation */
+select distinct checks
+from Operation;
