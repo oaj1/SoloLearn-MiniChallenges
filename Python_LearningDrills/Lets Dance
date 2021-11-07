@@ -1,0 +1,8 @@
+score = int(input())
+#your code goes here
+if score >= 80:
+	print("certificate")
+if score >89:
+	print("admitted")
+else:
+ 	None
