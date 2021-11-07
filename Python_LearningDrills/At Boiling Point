@@ -1,0 +1,8 @@
+temp = int(input())
+# your code goes here
+if temp == 100:
+	print("Boiling")
+elif temp >100:
+	print("Boiling")
+else:
+	print("")
