@@ -1,0 +1,18 @@
+CREATE TABLE learderboard (
+
+    place INT,
+    nickname VARCHAR(20),
+    rating INT
+);
+
+INSERT INTO learderboard (place,nickname,rating)
+VALUES (1, 'Predator', 9500);
+
+INSERT INTO learderboard (place,nickname,rating)
+VALUES (2, 'JohnWar', 9300);
+
+INSERT INTO learderboard (place,nickname,rating)
+VALUES (3, 'NightWarrior', 8900);
+
+
+SELECT * FROM learderboard;
