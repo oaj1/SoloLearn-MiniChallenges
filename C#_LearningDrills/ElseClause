@@ -1,0 +1,30 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double payment = Convert.ToDouble(Console.ReadLine());
+            double balance = Convert.ToDouble(Console.ReadLine());
+
+            //your code goes here
+            if (balance >= payment) 
+                {
+                    // block of code to be executed if the condition is True
+                    Console.WriteLine("Completed");
+                }
+            else 
+            {
+                Console.WriteLine("Insufficient funds");
+            }
+
+
+        }
+    }
+}
