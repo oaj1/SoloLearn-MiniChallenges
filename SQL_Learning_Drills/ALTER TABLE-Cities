@@ -1,0 +1,23 @@
+ALTER TABLE cities ADD 
+
+
+    AttractivePlace VARCHAR(60);
+
+
+
+
+update cities
+set AttractivePlace = 'Belem Tower' 
+where name = 'Lisbon';
+
+
+update cities
+set AttractivePlace = 'Plaza Mayor' 
+where name = 'Madrid';
+
+
+update cities
+set AttractivePlace = 'Eiffel Tower' 
+where name = 'Paris';
+
+select * from cities;
